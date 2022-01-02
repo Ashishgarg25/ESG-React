@@ -1,0 +1,156 @@
+.wrapper {
+    background-color: #23272b;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Nunito';
+    color: #bbc4cc;
+    padding: 1rem 3rem;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: .5rem;
+    margin-left: 14rem;
+}
+
+.btn-request {
+    height: 2.8rem !important;
+}
+
+.container1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo{
+    width: 6rem;
+}
+
+.loginSection {
+    background-color: #16191C;
+    padding: 0.5rem 2rem;
+    width: 35%;
+    margin-top: 1rem;
+}
+
+.label {
+    color: #fff;
+    font-family: 'Nunito';
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.input {
+    height: 2.5rem;
+    background-color: #2E3439 !important;
+    border-radius: 0 !important;
+    border: none !important;
+    color: #fff !important;
+}
+
+.select{
+    height: 3rem;
+    background-color: #2E3439 !important;
+    border: none !important;
+    /* border-radius: .5rem; */
+    color: #fff !important;
+    width: 100%;
+    padding-left: .5rem;
+}
+
+.passForgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textLink {
+    color: #2B8CD6 !important;
+    font-weight: 600;
+    font-size: .85rem;
+    padding-bottom: .2rem;
+    text-decoration: none;
+}
+
+.reqLogin{
+    font-weight: 600;
+    font-size: .8rem;
+    padding-bottom: .2rem;
+    padding-top: .5rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.errorMsg {
+    color: #f56;
+    font-size: .7rem;
+    padding: 0;
+    margin: 0
+}
+
+.toast {
+    margin: 0 auto;
+}
+
+.toastBody{
+    color: #fff !important;
+    text-align: center;
+}
+
+.btn {
+    background-image: linear-gradient(to right, #2B8CD6 , #29C4A9);
+    border: none !important;
+    height: 2.5rem;
+    font-weight: bold;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+    box-shadow: none;
+    -webkit-box-shadow: 0 0 0 30px #2E3439 inset !important;
+    -webkit-text-fill-color: #fff;
+}
+
+@media only screen and (max-width: 1450px){
+    .loginSection {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .header{
+        margin-left: 8rem;
+    }
+}
+
+@media only screen and (max-width: 968px){
+    .loginSection {
+        width: 75%;
+    }
+    
+}
+
+@media only screen and (max-width: 600px){
+    .wrapper{
+        height: 100vh !important;
+        padding: 1rem;
+    }
+    .loginSection {
+        width: 100%;
+        margin: 1.5rem 0;
+    }
+    .header{
+        margin-left: 0;
+        justify-content: center;
+    }
+}
+
+
+
+

@@ -1,0 +1,11 @@
+.wrapperBody{
+    background-color: #23272B;
+    font-family: 'Nunito';
+}
+
+.innerWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}

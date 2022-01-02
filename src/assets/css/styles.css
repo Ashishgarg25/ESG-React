@@ -1,0 +1,246 @@
+.wrapperContent{
+    margin-top: 4.5rem;
+}
+
+.wrapper{
+    background-color: #23272b;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Nunito';
+    color: #bbc4cc;
+    padding: 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.commingSoonBtn {
+    background-image: linear-gradient(to right, #2B8CD6 , #29C4A9);
+    border: none !important;
+    font-weight: bold !important;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subHeading{
+    color: #2B8CD6;
+    font-family: 'Nunito';
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.label {
+    color: #fff;
+    font-family: 'Nunito';
+    font-weight: normal;
+    font-size: 1rem;
+    /* padding-bottom: .5rem; */
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.input,.react-tag-input {
+    height: 2.5rem;
+    background-color: #2E3439 !important;
+    border: none !important;
+    border-radius: 0 !important;
+    color: #fff !important;
+}
+
+.react-tag-input__input {
+    color: #fff !important;
+}
+  
+.react-tag-input__tag {
+    background: #2B8CD6 !important;
+}
+
+.react-tag-input__tag__remove {
+    background: #2B8CD6 !important;
+  }
+
+.select{
+    height: 2.5rem;
+    background-color: #2E3439 !important;
+    border: none !important;
+    border-radius: 0 !important;
+    color: #fff !important;
+    width: 100%;
+    padding-left: .5rem;
+}
+
+.year {
+    height: 2.5rem;
+    background-color: #2E3439 !important;
+    border: none !important;
+    border-radius: 0 !important;
+    color: #fff !important;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.btnGrp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    height: 2.5rem;
+    background-color: #2E3439 !important;
+    border: none !important;
+    border-radius: 0 !important;
+    color: #fff !important;
+}
+
+.inputWithoutBg{
+    background-color: transparent !important;
+}
+
+.inputColorDisabled{
+    color: #cbcbcb !important;
+}
+
+.inputWithBorder{
+    border: 1px solid #454d55 !important;
+}
+
+.heading{
+    margin-bottom: 1.5rem !important;
+    font-size: 1.4rem;
+}
+
+.tableHeading{
+    padding: .5rem .2rem !important;
+    text-align: center;
+    margin-right: 1rem;
+    border-bottom-width: 0 !important;
+    vertical-align: middle !important;
+    font-weight: normal;
+}
+
+.tableHeading1{
+    padding: .5rem 1.2rem !important;
+    text-align: center;
+    margin-right: 1rem;
+    border-bottom-width: 0 !important;
+    vertical-align: middle !important;
+    font-weight: normal;
+}
+
+.form-group{
+    margin-bottom: 0 !important;
+}
+
+.tableHead{
+    padding: .5rem !important;
+    
+}
+
+.navLink{
+    color: #aaaaaa !important;
+    border: 1px solid #aaaaaa !important;
+    border-bottom: none !important;
+}
+
+.navLink:hover{
+    cursor: pointer
+}
+
+.navLinkActive{
+    background-color: gray !important;
+    color: #fff !important;
+    margin-bottom: 1rem;
+    outline: none !important;
+    border: none !important;
+}
+
+.breadCrumb{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+}
+
+.breadCrumbItem{
+    font-size: .85rem;
+    color: #aaaaaa;
+}
+
+.breadCrumbActive{
+    font-size: .85rem;
+    color: #2B8CD6
+}
+
+.modalContainer{  
+    max-width: 1200px !important;
+    width: 55% !important;
+    top: 8rem
+}
+
+.chooseModal{
+    width: 40% !important;
+}
+
+.modalBody{
+    background-color: #23272B !important;
+}
+
+.modalHead{
+    background-color: #2B8CD6;
+    color: #fff;
+    border-bottom-color: #2B8CD6;
+}
+
+.wrapperBody{
+    background-color: #23272B;
+    font-family: 'Nunito';
+}
+
+.innerWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.tableHeadingLeft{
+    padding: .5rem 1.3rem !important;
+    text-align: left;
+    margin-right: 1rem;
+    border-bottom-width: 0 !important;
+    vertical-align: middle !important;
+    font-weight: normal;
+}
+
+#next a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.disabledValue{
+    color: #767676;
+    float: right;
+    margin-top: -32px;
+    margin-right: 16px;
+}
+
+.disabledIpt{
+    color: #767676 !important;
+}
+
+
